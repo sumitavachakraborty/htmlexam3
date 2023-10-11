@@ -223,6 +223,12 @@ body {
   width: 100%;
 }
 
+.reviews{
+  background-color: #00264a;
+  height: 30vh;
+  margin: 4rem 0;
+}
+
 .events__item > button{
   background-color: #1168f5;
   margin: auto;
