@@ -341,12 +341,19 @@ body {
     font-size: 3rem;
   }
   .events__item {
-    width: 80%;
+    width: 95%;
   }
 }
 
 @media (max-width: 425px) {
   .tour__details > article > span {
     font-size: 2rem;
+  }
+  .banner__text > h1 {
+    font-size: 4rem;
+  }
+  
+  .tour__details > article {
+    flex-wrap: wrap;
   }
 }
