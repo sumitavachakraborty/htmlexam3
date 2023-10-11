@@ -55,7 +55,7 @@ body {
   transition: all ease 1s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: rgba(255, 174, 2, 255) !important;
 }
 
@@ -109,22 +109,20 @@ body {
   font-size: 1.5rem !important;
 }
 
-.tours{
+.tours {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 4rem;
-  
 }
 
-
-.tour__details{
+.tour__details {
   width: 50%;
 }
 
 .tour__details > article {
   display: flex;
-  border: 2px solid rgba(0,38,74,255);
+  border: 2px solid rgba(0, 38, 74, 255);
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
@@ -132,24 +130,23 @@ body {
   position: relative;
 }
 
-.tour__details > article:hover{
-  border: 10px solid rgba(0,38,74,255);
+.tour__details > article:hover {
+  border: 10px solid rgba(0, 38, 74, 255);
   margin: 2px;
-} 
+}
 
-.tour__arrow{
+.tour__arrow {
   position: absolute;
   top: 30px;
   right: -50px;
 }
 
-.tour__details > article > span{
+.tour__details > article > span {
   font-size: 3.5rem;
   font-weight: 600;
-
 }
 
-.tour__details__text{
+.tour__details__text {
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -157,21 +154,20 @@ body {
 
 .tour__details__text > h3 {
   font-weight: 600;
-  
 }
 
-.tour__details__text__photo{
+.tour__details__text__photo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   justify-content: flex-start !important;
 }
 
-.tour__details__text__photo > img{
+.tour__details__text__photo > img {
   width: 80px;
 }
 
-.tour__image{
+.tour__image {
   border: 4px solid #00264a;
   padding: 2rem;
   width: 40%;
@@ -181,19 +177,20 @@ body {
   width: 100%;
 }
 
-.events{
+
+.events {
   display: flex;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
 }
-.events__item{
+.events__item {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.events__item{
+.events__item {
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -209,27 +206,36 @@ body {
   text-align: left !important;
 }
 
-.events__item > h5{
+.events__item > h5 {
   font-weight: 700;
   width: 70%;
 }
 
-.events__item > span{
+.events__item > span {
   font-size: 1rem;
   margin: 0.5rem 0 2.5rem;
   opacity: 0.7;
 }
-.events__item > img{
+.events__item > img {
   width: 100%;
 }
 
-.reviews{
+.reviews {
   background-color: #00264a;
   height: 30vh;
   margin: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.events__item > button{
+.reviews > a{
+  color: white;
+  font-size: 3rem;
+}
+
+.events__item > button {
   background-color: #1168f5;
   margin: auto;
   color: white;
@@ -239,14 +245,13 @@ body {
   border: 0;
 }
 
-.footer__top{
+.footer__top {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-
-.footer__top__list{
+.footer__top__list {
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -274,16 +279,14 @@ body {
     gap: 2rem;
     padding: 0 2rem;
   }
-  
-  .tour__details > article > span{
+
+  .tour__details > article > span {
     font-size: 2.5rem;
     font-weight: 600;
-  
   }
-  .tour__details{
+  .tour__details {
     width: 55%;
   }
-
 }
 
 @media (max-width: 980px) {
@@ -299,25 +302,25 @@ body {
   .banner__text > button {
     font-size: 1rem !important;
   }
-  .tours{
+  .tours {
     flex-direction: column;
-    gap: 4rem;    
+    gap: 4rem;
   }
-  .tour__details{
+  .tour__details {
     width: 100%;
   }
-  .tour__image{
+  .tour__image {
     width: 100%;
   }
-  .tour__arrow{
+  .tour__arrow {
     display: none;
   }
-  .events{
+  .events {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .events__item{
+  .events__item {
     width: 55%;
   }
 }
@@ -333,16 +336,16 @@ body {
   .nav-link {
     font-size: 0.8rem !important;
   }
-  .tour__details > article > span{
+  .tour__details > article > span {
     font-size: 3rem;
   }
-  .events__item{
+  .events__item {
     width: 80%;
   }
 }
 
 @media (max-width: 425px) {
-  .tour__details > article > span{
+  .tour__details > article > span {
     font-size: 2rem;
   }
 }
