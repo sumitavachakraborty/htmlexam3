@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="./style.css" >
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1eaf330485.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <title>Consultancy</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light navbar--orange p-3">
+        <div class="container-fluid navbar--content">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/logo.png"
+              class="navbar-brand--logo"
+              alt="navlogo"
+            >
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigationnavlogo"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-2" aria-current="page" href="#home"
+                  >Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+              <li class="nav-item mx-2">
+                <a class="nav-link text-dark h5" href="" target="blank">
+                  <img
+                    src="./assets/Header_Icon.png"
+                    alt="headerIcon"
+                    class="w-50 m-0 p-0"
+                  >
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <ul class="subnav m-0 p-0">
+        <li class="subnav__item">
+          <img
+            src="./assets/Sub_Header_Icon_1.png"
+            class="mx-2"
+            alt="navitem"
+          >
+          Login/Registration
+        </li>
+        <li class="subnav__item">
+          <a href="tel:+1376-236-2336">
+            <img
+              src="./assets/Sub_Header_Icon_2.png"
+              class="mx-2"
+              alt="navitem"
+            >1-800-1234-567
+          </a>
+        </li>
+        <li class="subnav__item">
+          <a href="mailto:info@demolink.org">
+            <img
+              src="./assets/Sub_Header_Icon_3.png"
+              class="mx-2"
+              alt="navitem"
+            >info@demolink.org
+          </a>
+        </li>
+        <li class="subnav__item">
+          <img
+            src="./assets/Sub_Header_Icon_4.png"
+            class="mx-2"
+            alt="navitem"
+          >
+          795 Folsom Ave, Suite 600 San Francisco CA 94170
+        </li>
+        <li class="subnav__item">
+          <button class="subnav__button">CONTACT US</button>
+        </li>
+      </ul>
+    </header>
+    <main class="container-bg">
+      <section id="home">
+        <div class="banner">
+          <div class="container__block-one"></div>
+          <div class="container__block-two"></div>
+          <div class="banner__content">
+            <div class="banner__text">
+              <h1>
+                Strategy & Management
+                <br >
+                Consultancy
+              </h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur elit. Exercit provident
+                natus, sint nam natus, sint nam .
+              </p>
+              <button class="banner__button">CONTACT US</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <h2 class="fs-1 fw-bold text-white">We solve complex problems</h2>
+        <p>
+          Business expertise and dedicated teams to meet each and every client's
+          specific needs.
+        </p>
+        <button class="about__button">CONTACT US</button>
+      </section>
+      <section class="projects" id="portfolio">
+        <h2 class="fs-1 fw-bold text-white">Consulting Projects</h2>
+        <div class="container-md px-4 px-lg-5 mt-5">
+          <div
+            class="row gx-2 gx-lg-3 row-cols-sm-2 row-cols-1 row-cols-md-2 row-cols-xl-3 justify-content-center"
+          >
+            <div class="col mb-5">
+              <figure class="card h-100">
+                <div class="card-body m-0 p-0 border-0">
+                  <img
+                    class="card-img-top h-100 w-100"
+                    src="./assets/form-pic.jpg"
+                    alt="cardfig"
+                  >
+                </div>
+                <figcaption
+                  class="text-center text-white card-footer p-4 pt-0 border-top-0"
+                >
+                  <div>
+                    <h2 class="project__heading">Development</h2>
+                    <p class="project__text">
+                      Lorem ipsum dolor sit amet consectetur elit.
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col mb-5">
+              <figure class="card h-100 p-0 m-0">
+                <div class="card-body m-0 p-0 border-0">
+                  <img
+                    class="card-img-top h-100 w-100"
+                    src="./assets/form-pic.jpg"
+                    alt="cardfig"
+                  >
+                </div>
+                <figcaption
+                  class="text-center text-white card-footer p-4 pt-0 border-top-0"
+                >
+                  <div>
+                    <h2 class="project__heading">Competitive Analysis</h2>
+                    <p class="project__text">
+                      Lorem ipsum dolor sit amet consectetur elit.
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col mb-5">
+              <figure class="card h-100">
+                <div class="card-body m-0 p-0 border-0">
+                  <img
+                    class="card-img-top h-100 w-100"
+                    src="./assets/form-pic.jpg"
+                    alt="cardfig"
+                  >
+                </div>
+                <figcaption
+                  class="text-center text-white card-footer p-4 pt-0 border-top-0"
+                >
+                  <div>
+                    <h2 class="project__heading">Marketing Consultancy</h2>
+                    <p class="project__text">
+                      Lorem ipsum dolor sit amet consectetur elit.
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col mb-5">
+              <figure class="card h-100">
+                <div class="card-body m-0 p-0 border-0">
+                  <img
+                    class="card-img-top h-100 w-100"
+                    src="./assets/form-pic.jpg"
+                    alt="cardfig"
+                  >
+                </div>
+                <figcaption
+                  class="text-center text-white card-footer p-4 pt-0 border-top-0"
+                >
+                  <div>
+                    <h2 class="project__heading">Corporate Finance</h2>
+                    <p class="project__text">
+                      Lorem ipsum dolor sit amet consectetur elit.
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col mb-5">
+              <figure class="card h-100">
+                <div class="card-body m-0 p-0 border-0">
+                  <img
+                    class="card-img-top h-100 w-100"
+                    src="./assets/form-pic.jpg"
+                    alt="cardfig"
+                  >
+                </div>
+                <figcaption
+                  class="text-center text-white card-footer p-4 pt-0 border-top-0"
+                >
+                  <div>
+                    <h2 class="project__heading">Marketing And Sales</h2>
+                    <p class="project__text">
+                      Lorem ipsum dolor sit amet consectetur elit.
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col mb-5">
+              <figure class="card h-100">
+                <div class="card-body m-0 p-0 border-0">
+                  <img
+                    class="card-img-top h-100 w-100"
+                    src="./assets/form-pic.jpg"
+                    alt="cardfig"
+                  >
+                </div>
+                <figcaption
+                  class="text-center text-white card-footer p-4 pt-0 border-top-0"
+                >
+                  <div>
+                    <h2 class="project__heading">People Statergy</h2>
+                    <p class="project__text">
+                      Lorem ipsum dolor sit amet consectetur elit.
+                    </p>
+                  </div>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients" id="services">
+        <div class="container pt-4">
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center flex-column"
+            >
+              <img
+                src="./assets/Middle_Icon_1.png"
+                alt="middleicon1"
+                class="clients__icon"
+              >
+              <h3 class="text-white pt-3 clients__heading">5</h3>
+              <p class="text-white clients__text">SPECIALISTS</p>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center flex-column"
+            >
+              <img
+                src="./assets/Middle_Icon_2.png"
+                alt="middleicon2"
+                class="clients__icon"
+              >
+              <h3 class="text-white pt-3 clients__heading">15</h3>
+              <p class="text-white clients__text">HAPPY CLIENTS</p>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center flex-column"
+            >
+              <img
+                src="./assets/Middle_Icon_3.png"
+                alt="middleicon3"
+                class="clients__icon"
+              >
+              <h3 class="text-white pt-3 clients__heading">18</h3>
+              <p class="text-white clients__text">SUCCESSFUL CASES</p>
+            </div>
+            <div
+              class="col-lg-3 col-md-4 col-6 d-flex align-items-center justify-content-center flex-column"
+            >
+              <img
+                src="./assets/Middle_Icon_4.png"
+                alt="middleicon4"
+                class="clients__icon"
+              >
+              <h3 class="text-white pt-3 clients__heading">7</h3>
+              <p class="text-white clients__text">AWARDS</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="help">
+        <h2 class="fs-1 fw-bold text-white">How can we help you ?</h2>
+        <p class="mb-5">
+          Get in
+          <a href="#">Touch with us</a>
+          or find
+          <a href="#">An Office</a>
+          closest to you.
+        </p>
+      </section>
+      <section id="contact" class="contact mt-4">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-md-9">
+                  <div class="addresses">
+                    <h2 class="addresses__heading">
+                      Nam Ultrices Ultrices Nec Tortor Pulvinar Esteras Loremips
+                      Est Orem lore ltrices Ultrices Nec
+                    </h2>
+                    <p class="addresses__text">
+                      <span class="addresses__text--bold">Address:</span>
+                      New York, USA
+                    </p>
+                    <p class="addresses__text">
+                      <span class="addresses__text--bold">Phone:</span>
+                      +1 234-567-890
+                    </p>
+                    <p class="addresses__text">
+                      <span class="addresses__text--bold">Hours:</span>
+                      6:00 am-2:00 am
+                    </p>
+                  </div>
+                  <div class="socials">
+                    <ul class="list-unstyled d-flex flex-row gap-4">
+                      <li>
+                        <i class="fa fa-brands fa-facebook-f socials__icon"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-brands fa-twitter socials__icon"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-brands fa-instagram socials__icon"></i>
+                      </li>
+                      <li>
+                        <i class="fa fa-brands fa-linkedin socials__icon"></i>
+                      </li>
+                      <li>
+                        <i
+                          class="fa fa-brands fa-pinterest-p socials__icon"
+                        ></i>
+                      </li>
+                    </ul>
+                  </div>
+                  <button class="addresses__button">www.consultancy.com</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <form class="php-email-form">
+                <div class="row gy-4">
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    >
+                  </div>
+                  <div class="col-md-12">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Email"
+                      required
+                    >
+                  </div>
+                  <div class="col-md-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      placeholder="Subject"
+                      required
+                    >
+                  </div>
+                  <div class="col-md-12">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="6"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span
+        >Copyright &copy; <span class="copyright">Consultancy</span> 2023
+      </span>
+    </footer>
+  </body>
+</html>
